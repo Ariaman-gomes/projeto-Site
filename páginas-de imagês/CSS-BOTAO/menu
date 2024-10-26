@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+body, ul, li{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    background-color: rgb(245, 139, 0);
+    margin-top: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: sticky;
+    top: 82px;
+
+}
+
+
+img{
+    max-width: 100%;
+    display: block;
+}
+.son{
+    background-color: rgb(245, 139, 0);
+    
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.header{  /*cabeçalho*/
+    background-color: black;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    position: sticky;
+    top: 0px;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    margin-left: 20px;
+}
+.menu li a {
+    /*background-color:rgb(87, 0, 0);*/
+    display: block;
+    padding: 10px 10px;
+}
+/* flex box*/
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.flex> div, a img{
+    flex: 1 1 300px;
+    margin: 10px 10px;
+}
+
+.para{
+    text-align: center;
+    background-color: rgb(245, 139, 0);
+    padding: 10px;
+    margin-bottom: auto;
+    
+}
+.roda{/*RODA PÉ*/
+    background-color: black;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 80px;
+}
+/*.flex{
+    background-color: gray;
+    border: 10px 10px 10px 10px;
+}*/
+
