@@ -44,22 +44,13 @@ img{
     position: sticky;
     top: 0px;
 }
-
-.header>a:hover{
+.header> a:hover{
     background-color:  rgb(245, 139, 0);
     transition: background-color .2s;
     transition: color black;
     padding: 5px 5px;
     border-radius: 10px;
 }
-.menu>li>a:hover{
-    background-color:  rgb(245, 139, 0);
-    transition: background-color .2s;
-    transition: color black;
-    padding: 5px 5px;
-    border-radius: 10px;
-}
-
 .menu{
     display: flex;
 }
@@ -71,6 +62,15 @@ img{
     display: block;
     padding: 10px 10px;
 }
+
+
+.menu>li>a:hover{
+    background-color:  rgb(245, 139, 0);
+    transition: background-color .2s;
+    transition: color black;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
 /* flex box*/
 
 .flex{
@@ -78,26 +78,17 @@ img{
     flex-wrap: wrap;
     max-width: 800px;
     margin: 0 auto;
-    padding: 1px 10px;
-    
 }
 .flex> div, a img{
     flex: 1 1 200px;
     margin: 10px 10px;
 }
 
-
-.flex>div> a> img:hover{
-    background-color: rgb(245, 139, 0);
-    transition: background-color .7s;
-    padding: 5px 5px;
-    border-radius: 5px;
-}
 .para{
     text-align: center;
     background-color: rgb(245, 139, 0);
     padding: 10px;
-
+    
 }
 .roda{/*RODA PÉ*/
     background-color: black;
@@ -108,15 +99,18 @@ img{
     align-items: center;
     padding: 100px 80px;
 }
-/*.flex{
-    background-color: gray;
-    border: 10px 10px 10px 10px;
-}*/
 
 .git:hover{
     background-color:  rgb(245, 139, 0);
     transition: background-color .2s;
     transition: color black;
-    padding: 5px 5px;
-    border-radius: 10px;
+    padding: 3px 3px;
+    border-radius: 50px;
 }
+/*.flex{
+    background-color: gray;
+    border: 10px 10px 10px 10px;
+}*/
+
+
+
